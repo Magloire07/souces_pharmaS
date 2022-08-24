@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.head-input {
+    height: 600px;
+    background: rgb(60, 218, 152);
+}
+
+.head-input .head {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background: rgb(43, 53, 54);
+}
+
+.head-input .head .logo {
+
+    margin-left: 50px;
+
+}
+
+.head-input .head .logo img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.head-input .head .nav {
+    width: 600px;
+    margin-left: 250px;
+}
+
+.head-input .head .nav ul {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.6;
+}
+
+.head-input .head .nav ul li {
+    list-style-type: none;
+    border-bottom: 1px solid rgb(60, 218, 152);
+    
+
+}
+
+.head-input .head .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+   
+}
+
+/* .head-input .head .nav ul li span {
+    color: rgb(228, 78, 215);
+    font-size: 24px;
+    font-weight: 600;
+} */
+.head-input .head .con-discon{
+    
+    margin-left: 100px;
+    display:flex;
+    align-items: center;
+}
+.head-input .head .con-discon .icon{
+    
+    height: 40px ;
+    width: 40px;
+    border-radius: 50%;
+    background: rgb(60, 218, 152);  
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.head-input .head .con-discon .icon i{
+    color: white;
+    
+}
+.head-input .head .con-discon a{
+    text-decoration: none;
+    color:white;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 5px;
+      
+}
+.head-input .head .lang{
+    margin-left: 50px;
+}
+.head-input .head .lang ul {
+    display: flex;
+    list-style-type: none;
+    
+   
+}
+.head-input .head .lang ul li{
+    color: rgb(255, 75, 246);
+    opacity: 0.5;
+}
+
+.head-input .head .lang ul li{
+    margin: 2px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
+.head-input .head .lang ul li:nth-child(2){
+    opacity: 1;
+    padding-left:4px ;
+    padding-right:4px ;
+    border-right: 2px solid rgb(60, 218, 152); 
+    border-left: 2px solid rgb(60, 218, 152); 
+}
+
+
+.head-input .head .lang ul li:nth-child(1):hover{
+    opacity: 1;
+    
+
+}
+.head-input .head .lang ul li:nth-child(2):hover{
+    opacity: 1;
+
+}
+.head-input .head .lang ul li:nth-child(3):hover{
+    opacity: 1;
+}
+
+.head-input .text{
+    margin-left: 50%;
+    margin-top: 4%;
+    transform: translate(-50%);
+}
+.head-input  .text p{
+    
+    color: black;
+    opacity: 0.7;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+ 
+.head-input .input-section {
+    display: flex;
+    margin-left: 50%;
+    margin-top: 6%;
+    transform: translate(-50%);
+    height: 80px;
+    width: 950px;
+    border-radius: 8px;
+    background: white;
+    align-items: center;
+
+}
+.head-input .input-section .search-icon i{
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+    margin: 8px;
+}
+.head-input .input-section input{
+    height: 70%;
+    width: 100%;
+    outline:none; /*remove the line around the input section */
+    border: 1px solid transparent; 
+    border-radius: 3px;
+    font-size: 20px;
+    background: #fff;
+    
+   
+}
+
+.head-input .input-section .search-r{
+    display: flex;
+    margin-right: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 130px;
+    height: 60px;
+    border-radius: 5px;
+    background: rgb(185, 44, 150);
+    border: 1px solid rgb(185, 44, 150);;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+.head-input .input-section .search-r:hover{
+    transform: scale(1.07);
+}
+.head-input .input-section .search-r i{
+  
+    color: white;
+    font-size: 20px;
+  
+  
+}
+.head-input .input-section .search-r p{
+   
+    color: white;
+    font-size: 18px;
+}

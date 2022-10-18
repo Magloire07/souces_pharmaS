@@ -15,29 +15,29 @@
             <div class="logo">
                 <img src="../images/logo.png" alt="LOGO">
             </div>
-            <div class="nav">
+            <div class="link">
                 <ul>
-                    <li><a href="">Accueil</a></li>
+                    <li><a href="https://www.google.com">Accueil</a></li>
                     <li><a href="">à propos de  <span>PharmaS</span></a> </li>
                     <li><a href="">nous contacté</a> </li>
                 </ul>
 
             </div>
             <div class="con-discon">
+                <div class=" left">
                 <div class="icon">
                 <i class="fa fa-user" aria-hidden="true"></i>
                 </div>
-            
               <a href="">connecter</a>
-            </div>
+              </div>
             <div class="lang">
               <ul>
                 <li>EN</li>
                 <li>FR</li>
                 <li>EWE</li>
               </ul>
+              </div>
             </div>
-
         </div>
         <div class="text">
           <p> Votre produit est disponible? </p>
@@ -53,7 +53,7 @@
     </div> 
 
     <div class="main-fonction-img">
-
+        
     </div>
 
     <div class="trend-adv">
